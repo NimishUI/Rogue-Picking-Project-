@@ -1,0 +1,120 @@
+span
+{
+    color: #839f74;
+}
+
+header h1
+{
+    float: left;
+    padding-left: 32px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+} 
+
+header nav li
+{
+    float: right;
+    display: inline-block;
+    padding: 34px 40px 20px 0px;
+    color: #839f74;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header img 
+{
+    padding-left: 32px;
+    width: 1300px;
+    height: 270px;
+}
+
+section h2
+{
+    color: #839f74;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 32px;
+}
+
+section p
+{
+    font-family:  'Quicksand', sans-serif;
+    line-height: 26px;
+    padding-left: 32px;
+}
+
+footer
+{
+    height: 245px;
+}
+
+.third-width
+{
+    height: 240px;
+    width: 400px;
+    float: left;
+}
+
+
+
+#review #menu #cont h4
+{
+   font-family: 'Ubuntu', sans-serif;
+   color: black;
+}
+
+#menu p
+{
+    font-family: 'Quicksand', sans-serif;
+    color: #839f74;
+    margin: auto;
+}
+
+#review p
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}   
+
+#cont p
+{
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    line-height: 4px;
+}
+
+div#menu
+{
+    padding-left: 36px;
+    width: 300px;
+}
+
+div#cont 
+{
+    padding-left: 70px;
+}
+
+div#review
+{
+    padding-left: 70px;
+}
+
+.vertical 
+{
+    width: 1px;
+    background-color: grey;
+    height: 95%;
+    float: left;
+}
+
+span#end
+{
+    font-family: 'Pinyon Script', cursive;
+}
+
+h4#en 
+{
+    text-align: center;
+}
+
