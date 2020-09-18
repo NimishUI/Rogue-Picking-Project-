@@ -1,0 +1,118 @@
+  body {
+    padding: 0 1.5em;
+    color: #1f1f1f;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  h1{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid #839f74;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header img {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  span {
+    color: #839f74;
+  }
+
+  nav {
+    font-size: 1.5em;
+    color: #839f74;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 2em 0;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    color: #839f74;
+  }
+
+  p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menu {
+    margin-bottom: 3.5em;
+  }
+
+  #menu p {
+    line-height: 1em;
+    color: #839f74;
+  }
+
+  h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.4em;
+  }
+
+  #menu p {
+    line-height: 1em;
+  }
+
+  footer h4 {
+    border-bottom: #1f1f1f solid 3px;
+  }
+
+  #cont {
+    margin-bottom: 3.5em;
+    width: 100%;
+  }
+
+  #cont h4 {
+    border-bottom: 3px solid #1f1f1f;
+  }
+
+  #review {
+    margin-bottom: 3.5em;
+  }
+
+  #en {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px gray solid;
+    border-top: 1px gray solid;
+  }
+
+  #en span {
+    color: #839f74;
+    font-family: "Pinyon Script", cursive;
+  }
+}

@@ -1,120 +1,106 @@
-span
-{
-    color: #839f74;
-}
-
-header h1
-{
-    float: left;
-    padding-left: 32px;
-    text-transform: uppercase;
-    font-family: serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400px;
-} 
-
-header nav li
-{
-    float: right;
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    color: #1f1f1f;
+    font-size: 16px;
+    padding: 0 1.5em;
+  }
+  
+  h1 {
     display: inline-block;
-    padding: 34px 40px 20px 0px;
-    color: #839f74;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8em;
+    margin-top: 1.4em;
+    font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
-    font-family: 'Ubuntu', sans-serif;
-}
+    padding-bottom: 16px;
+  }
 
-header img 
-{
-    padding-left: 32px;
-    width: 1300px;
-    height: 270px;
-}
-
-section h2
-{
+  span {
     color: #839f74;
-    font-family: 'Ubuntu', sans-serif;
-    padding-left: 32px;
-}
-
-section p
-{
-    font-family:  'Quicksand', sans-serif;
-    line-height: 26px;
-    padding-left: 32px;
-}
-
-footer
-{
-    height: 245px;
-}
-
-.third-width
-{
-    height: 240px;
-    width: 400px;
-    float: left;
-}
-
-
-
-#review #menu #cont h4
-{
-   font-family: 'Ubuntu', sans-serif;
-   color: black;
-}
-
-#menu p
-{
-    font-family: 'Quicksand', sans-serif;
+  }
+  
+  nav {
+    float: right;
+    width: 60%;
+    margin-top: 0.6em;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style-type: none;
+    font-size: 1.3em;
     color: #839f74;
-    margin: auto;
-}
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-#review p
-{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-}   
+  header img {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
 
-#cont p
-{
-    font-family: 'Quicksand', sans-serif;
-    margin: auto;
-    line-height: 4px;
-}
+  h2 {
+    color: #839f74;
+    font-size: 1.8em;
+  }
+  
+  p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
 
-div#menu
-{
-    padding-left: 36px;
-    width: 300px;
-}
+  footer {
+    display: flex !important;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgray;
+  }
 
-div#cont 
-{
-    padding-left: 70px;
-}
+  div {
+    padding: 1em;
+  }
 
-div#review
-{
-    padding-left: 70px;
-}
+  #menu {
+    flex: 1;
+    border-right: 1px lightgray solid;
+  }
 
-.vertical 
-{
-    width: 1px;
-    background-color: grey;
-    height: 95%;
-    float: left;
-}
+  #menu p {
+    color: #839f74;
+  }
+  
+  #review {
+    flex: 1;
+    border-right: 1px lightgray solid;
+  }
 
-span#end
-{
-    font-family: 'Pinyon Script', cursive;
-}
+  #cont {
+    flex: 1;
+  }
 
-h4#en 
-{
+  h4 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.4em;
+  }
+
+  #en{
     text-align: center;
-}
-
+    font-size: 1em;
+  }
+  
+  #en span {
+    color: #839f74;
+    font-family: "Pinyon Script", cursive;
+  }
